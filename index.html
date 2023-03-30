@@ -17,11 +17,16 @@
   <!-- <link rel="stylesheet" href="css/css.min.css"> -->
 </head>
 <body>
+
+  <!-- LOADERS  -->
+  <div class="loader-wrapper js-loader">
+    <span class="loader"></span>
+  </div>
   <section class="box">
     <!-- HEADER  -->
     <div class="box__header header">
       <h1 class="header__title">Miqdor almashinuvi</h1>
-      <form class="form" action="https://echo.htmlacademy.ru/" method="post">
+      <form class="form js-form" action="https://echo.htmlacademy.ru/" method="post">
         <div class="form__inner">
           <input class="form__value js-input" type="number" name="value" autofocus required></input>
           <button class="form__button js-button" type="submit">Convert</button>
@@ -35,19 +40,19 @@
         <li class="main__item item">
           <div class="item__inner">
             <h3 class="item__title">Uzunlik (m/sm)</h3>
-            <p class="item__info">Lorem ipsum dolor sit amet.</p>
+            <p class="item__info length"></p>
           </div>
         </li>
         <li class="main__item item">
           <div class="item__inner">
             <h3 class="item__title">Hajm (l/gr)</h3>
-            <p class="item__info"></p>
+            <p class="item__info volume"></p>
           </div>
         </li>
         <li class="main__item item">
           <div class="item__inner">
             <h3 class="item__title">Massa (kg/gr)</h3>
-            <p class="item__info"></p>
+            <p class="item__info mass"></p>
           </div>
         </li>
       </ul>
